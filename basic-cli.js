@@ -1,3 +1,7 @@
+/*
+ * Basic file that makes use of modules to get battery info and log to console
+ */
+
 const BatteryUtil = require("./modules/Batteries");
 const ACUtil = require("./modules/AC");
 const powerSupplyDir = "/sys/class/power_supply";
